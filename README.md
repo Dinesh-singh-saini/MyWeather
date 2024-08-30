@@ -35,8 +35,6 @@ You can download the MyWeather app from the following link:
 
 [Download MyWeather App](https://github.com/Dinesh-singh-saini/MyWeather/blob/master/MyWeather.apk)
 
-*Replace the above link with the actual download link once available.*
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to the development of MyWeather, please follow these steps:
@@ -65,4 +63,3 @@ For any questions, suggestions, or feedback, feel free to contact the author:
 - **Email**: dineshkumar623092@gmail.com
 
 ---
-
