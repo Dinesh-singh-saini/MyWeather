@@ -33,7 +33,7 @@ MyWeather is an Android application that provides real-time weather updates and 
 
 You can download the MyWeather app from the following link:
 
-[Download MyWeather App](https://example.com/download)
+[Download MyWeather App](https://github.com/Dinesh-singh-saini/MyWeather/blob/master/MyWeather.apk)
 
 *Replace the above link with the actual download link once available.*
 
