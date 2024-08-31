@@ -5,6 +5,7 @@
         android:id="@+id/search"
         android:icon="@drawable/search_24px"
         android:title="@string/search"
+        android:iconTint="@color/white"
         android:orderInCategory="100"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="always" />
@@ -12,6 +13,7 @@
         android:id="@+id/live_location"
         android:icon="@drawable/location_icon"
         android:title="@string/location"
+        android:iconTint="@color/white"
         android:orderInCategory="100"
         app:showAsAction="always" />
 
