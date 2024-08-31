@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:backgroundTint="@color/background"
+    android:backgroundTint="#122338"
     app:cardCornerRadius="12dp"
     app:cardElevation="2dp"
     app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
             android:text="Monday"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -48,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:text="72°F"
                 android:textAppearance="?attr/textAppearanceHeadline5"
-                android:textColor="@android:color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -64,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:text="Feels like 65°F"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/white" />
 
                 <TextView
                     android:id="@+id/minMaxTemp"
@@ -72,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:text="Min : 65°F / Max : 72°F"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
 
@@ -100,7 +101,7 @@
                     android:layout_height="wrap_content"
                     android:text="Precipitation"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/white" />
 
                 <TextView
                     android:id="@+id/precipitation"
@@ -108,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:text="20 mm"
                     android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -126,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:text="Wind"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/white" />
 
                 <TextView
                     android:id="@+id/wind"
@@ -134,7 +135,7 @@
                     android:layout_height="wrap_content"
                     android:text="10 mph"
                     android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -155,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:text="Humidity"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/white" />
 
                 <TextView
                     android:id="@+id/humidity"
@@ -163,7 +164,7 @@
                     android:layout_height="wrap_content"
                     android:text="60%"
                     android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -182,7 +183,7 @@
                     android:layout_height="wrap_content"
                     android:text="UV Index"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/white" />
 
                 <TextView
                     android:id="@+id/uv_index"
@@ -190,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:text="6"
                     android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
         </GridLayout>
