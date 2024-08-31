@@ -13,9 +13,11 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/tool"
+        android:background="@color/black"
         app:title="My Weather"
+        app:navigationIconTint="@color/white"
         app:menu="@menu/menu"
+        app:titleTextColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -27,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/background"
+        android:backgroundTint="#122338"
         app:cardCornerRadius="12dp"
         app:cardElevation="2dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,6 +49,7 @@
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="San Francisco, CA"
                 android:textSize="24sp"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <TextView
@@ -56,7 +59,7 @@
                 android:layout_marginTop="4dp"
                 android:text="Today, August 20"
                 android:textAppearance="?attr/textAppearanceBody2"
-                android:textColor="@android:color/darker_gray" />
+                android:textColor="@color/white" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -78,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:text="72°F"
                     android:textAppearance="?attr/textAppearanceHeadline5"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -94,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:text="Feels like 65°F"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@android:color/darker_gray" />
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/minMaxTemp"
@@ -102,7 +105,7 @@
                         android:layout_height="wrap_content"
                         android:text="Min : 65°F / Max : 72°F"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@android:color/darker_gray" />
+                        android:textColor="@color/white" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -130,7 +133,7 @@
                         android:layout_height="wrap_content"
                         android:text="Precipitation"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@android:color/darker_gray" />
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/precipitation"
@@ -138,7 +141,7 @@
                         android:layout_height="wrap_content"
                         android:text="20 mm"
                         android:textAppearance="?attr/textAppearanceHeadline6"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/white"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -156,7 +159,7 @@
                         android:layout_height="wrap_content"
                         android:text="Wind"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@android:color/darker_gray" />
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/wind"
@@ -164,7 +167,7 @@
                         android:layout_height="wrap_content"
                         android:text="10 mph"
                         android:textAppearance="?attr/textAppearanceHeadline6"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/white"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -185,7 +188,7 @@
                         android:layout_height="wrap_content"
                         android:text="Humidity"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@android:color/darker_gray" />
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/humidity"
@@ -193,7 +196,7 @@
                         android:layout_height="wrap_content"
                         android:text="60%"
                         android:textAppearance="?attr/textAppearanceHeadline6"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/white"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -212,7 +215,7 @@
                         android:layout_height="wrap_content"
                         android:text="UV Index"
                         android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@android:color/darker_gray" />
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/uv_index"
@@ -220,7 +223,7 @@
                         android:layout_height="wrap_content"
                         android:text="6"
                         android:textAppearance="?attr/textAppearanceHeadline6"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/white"
                         android:textStyle="bold" />
                 </LinearLayout>
             </GridLayout>
@@ -232,7 +235,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/background"
+        android:backgroundTint="#122338"
         app:cardElevation="2dp"
         android:padding="16dp"
         app:cardCornerRadius="12dp"
@@ -251,6 +254,7 @@
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="24 Hour Forecast"
                 android:textSize="24sp"
+                android:textColor="@color/white"
                 android:layout_marginBottom="12dp"
                 android:textStyle="bold" />
 
@@ -272,7 +276,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/background"
+        android:backgroundTint="#122338"
         app:cardElevation="2dp"
         app:cardCornerRadius="12dp"
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
@@ -293,7 +297,7 @@
                 android:layout_marginBottom="12dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="@string/upcoming_days_forecast"
-                android:textColor="#4A4A4A"
+                android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -327,6 +331,7 @@
             android:layout_height="wrap_content"
             android:text="Made with ❤️ by"
             android:textStyle="italic"
+            android:textColor="@color/white"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"/>
 
@@ -335,6 +340,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/aclonica"
             android:gravity="center"
+            android:textColor="@color/white"
             android:text=" Dinesh Kumar"
             android:textStyle="italic" />
 
